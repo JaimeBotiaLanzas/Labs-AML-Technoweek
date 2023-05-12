@@ -90,10 +90,7 @@ A lot of data science and machine learning experimentation is performed by runni
 > **New to machine learning?** Use the [machine learning overview](cheat-sheets/dp100-cheat-sheet-machine-learning.pdf) to get a simplified overview of the machine learning process in Azure Machine Learning.
 
 
----
-lab:
-    title: 'Use Automated Machine Learning'
----
+
 
 # Use Automated Machine Learning
 
@@ -234,10 +231,7 @@ Now that you've deployed a service, you can test it using some simple code. Firs
 1. In the notebook, replace the **ENDPOINT** and **PRIMARY_KEY** placeholders with the values for your service, which you can copy from the **Consume** tab on the page for your endpoint.
 1. Run the code cell and view the output returned by your web service.
 
----
-lab:
-    title: 'Use Azure Machine Learning Designer'
----
+
 # Use Azure Machine Learning Designer
 
 Azure Machine Learning *designer* provides a drag & drop environment in which you can define a workflow, or *pipeline* of data ingestion, transformation, and model training components to create a machine learning model. You can then publish this pipeline as a web service that client applications can use for *inferencing* (generating predictions from new data).
@@ -403,10 +397,7 @@ Now you can test your deployed service from a client application - in this case,
 1. Run the code cell and view the output returned by your web service.
 
 
----
-lab:
-    title: 'Train models'
----
+
 # Train Models
 
 Machine Learning is primarily about training models that you can use to provide predictive services to applications. In this exercise, you'll see how you can use Azure Machine Learning experiments to run training scripts, and how to register the resulting trained models.
@@ -418,10 +409,7 @@ In this exercise, the code to train models is provided in a notebook.
 1. In the **Notebooks** page, browse to the **/users/*your-user-name*/mslearn-dp100** folder where you cloned the notebook repository, and open the **Train Models** notebook.
 2. Then read the notes in the notebook, running each code cell in turn.
 
----
-lab:
-    title: 'Create a real-time inference service'
----
+
 # Create a Real-time Inference Service
 
 There's no point in training and registering machine learning models if you don't plan to make them available for applications to use. In this exercise, you'll deploy a model as a web service for real-time inferencing.
@@ -433,10 +421,7 @@ In this exercise, the code to deploy a model as a real-time inferencing service 
 1. In the **Notebooks** page, browse to the **/users/*your-user-name*/mslearn-dp100** folder where you cloned the notebook repository, and open the **Create a Real-time Inferencing Service** notebook.
 2. Then read the notes in the notebook, running each code cell in turn.
 
----
-lab:
-    title: 'Tune hyperparameters'
----
+
 # Tune Hyperparameters
 
 Hyperparameters are variables that affect how a model is trained, but which can't be derived from the training data. Choosing the optimal hyperparameter values for model training can be difficult, and usually involved a great deal of trial and error.
@@ -450,11 +435,8 @@ In this exercise, the code to run a hyperparameter tuning experiment is provided
 1. In the **Notebooks** page, browse to the **/users/*your-user-name*/mslearn-dp100** folder where you cloned the notebook repository, and open the **Tune Hyperparameters** notebook.
 2. Then read the notes in the notebook, running each code cell in turn.
 
----
-lab:
-    title: EXTRA LAB 'Interpret models'
----
-# Interpret Models
+
+# EXTRA LAB: Interpret Models
 
 As machine learning becomes increasingly integral to decisions that affect health, safety, economic wellbeing, and other aspects of people's lives, it's important to be able to understand how models make predictions; and to be able to explain the rationale for machine learning based decisions.
 
