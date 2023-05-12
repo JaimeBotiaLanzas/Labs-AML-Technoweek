@@ -310,7 +310,7 @@ With the data flow steps defined, you're now ready to run the training pipeline 
 
 1. Verify that your pipeline looks similar to the following:
 
-    ![Visual Training Pipeline](images/visual-training.jpg)
+    ![Visual Training Pipeline](visual-training.jpg)
 
 2. At the top right, click **Submit**. Then when prompted, create a new experiment named **mslearn-designer-train-diabetes**, and run it.  This will initialize the compute cluster and then run the pipeline, which may take 10 minutes or longer. You  can see the status of the pipeline run above the top right of the design canvas.
 
@@ -359,7 +359,7 @@ Now that you have used a *training pipeline* to train a model, you can create an
 
 9. Verify that your pipeline looks similar to the following:
 
-    ![Visual Inference Pipeline](images/visual-inference.jpg)
+    ![Visual Inference Pipeline](visual-inference.jpg)
 
 10. Submit the pipeline as a new experiment named **mslearn-designer-predict-diabetes** on the compute cluster you used for training. This may take a while!
 
@@ -448,6 +448,6 @@ In this exercise, the code to interpret models is provided in a notebook.
 2. Then read the notes in the notebook, running each code cell in turn.
 
 
-
+![Visual Inference Pipeline](dp100-cheat-sheet-machine-learning_page-0001.jpg)
 
 
