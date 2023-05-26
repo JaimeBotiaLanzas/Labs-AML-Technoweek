@@ -130,6 +130,7 @@ Now that you have some compute resources that you can use to process data, you'l
         * **Description**: Diabetes data
     * **Datastore and file selection**:
         * **Select or create a datastore**: From local files
+        * **Select or create a datastore**: Azure Blob Storage
         * **Select files for your dataset**: Browse to the **diabetes.csv** file you downloaded.
         * **Upload path**: *Leave the default selection*
         * **Skip data validation**: Not selected
