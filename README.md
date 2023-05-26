@@ -129,7 +129,7 @@ Now that you have some compute resources that you can use to process data, you'l
         * **Dataset type**: Tabular
         * **Description**: Diabetes data
     * **Datastore and file selection**:
-        * **Select or create a datastore**: Currently selected datastore
+        * **Select or create a datastore**: From local files
         * **Select files for your dataset**: Browse to the **diabetes.csv** file you downloaded.
         * **Upload path**: *Leave the default selection*
         * **Skip data validation**: Not selected
