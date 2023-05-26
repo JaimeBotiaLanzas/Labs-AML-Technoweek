@@ -146,6 +146,7 @@ Now that you have some compute resources that you can use to process data, you'l
     * **Confirm details**:
         * Do not profile the dataset after creation
 4. After the dataset has been created, open it and view the **Explore** page to see a sample of the data. This data represents details from patients who have been tested for diabetes, and you will use it to train a model that predicts the likelihood of a patient testing positive for diabetes based on clinical measurements.
+As you can see there is a column called ID which identifies the different patients and there is a Diabetic column which tell us if the patient is diabetic (1) or not diabetic (0)
 
     > **Note**: You can optionally generate a *profile* of the dataset to see more statistical details.
 
