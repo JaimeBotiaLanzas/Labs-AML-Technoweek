@@ -265,7 +265,7 @@ To get started with designer, first you must create a pipeline and add the datas
 1. On the left side of the designer, select the **Data** tab, and drag the **diabetes dataset** dataset onto the canvas.
 1. Select the **diabetes-dataset** component on the canvas. Then right-click it, and select **Preview data**.
 1. In the DataOutput pane, select the **Profile** tab.
-1. Review the schema of the data, noting that you can see the distributions of the various columns as histograms. Then close the visualization.
+1. Review the schema of the data, noting that you can see the distributions of the various columns as histograms. As you can see there are not even distributions of values for all the features. Then close the visualization.
 
 ## Add transformations
 
