@@ -221,12 +221,6 @@ Now that you've deployed a service, you can test it using some simple code. Firs
 
 1. With the **Consume** page for the **auto-predict-diabetes** service page open in your browser, open a new browser tab and open a second instance of Azure Machine Learning studio. Then in the new tab, view the **Notebooks** page.
 1. If a message describing new features is displayed, close it.
-1. Select **Terminal** or the **Open terminal** icon to open a terminal, and ensure that its **Compute** is set to your compute instance and that the current path is the **/users/your-user-name** folder.
-1. Enter the following command to clone a Git repository containing notebooks, data, and other files to your workspace:
-
-    ```bash
-    git clone https://github.com/MicrosoftLearning/mslearn-dp100 mslearn-dp100
-    ```
 
 1. In the **Notebooks** page, under **My files**, browse to the **/users/*your-user-name*/mslearn-dp100** folder where you cloned the notebook repository, and open the **Get AutoML Prediction** notebook.
 1. When the notebook has opened, ensure that the compute instance you created previously is selected in the **Compute** box, and that it has a status of **Running**.
