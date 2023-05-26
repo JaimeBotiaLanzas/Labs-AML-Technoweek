@@ -125,7 +125,7 @@ Now that you have some compute resources that you can use to process data, you'l
 2. In Azure Machine Learning studio, view the **Data** page. Datasets represent specific data files or tables that you plan to work with in Azure ML.
 3. Create a new dataset from local files, using the following settings:
     * **Basic Info**:
-        * **Name**: diabetes dataset
+        * **Name**: diabetes-dataset
         * **Dataset type**: Tabular
         * **Description**: Diabetes data
     * **Datastore and file selection**:
