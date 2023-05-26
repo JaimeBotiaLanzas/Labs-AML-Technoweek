@@ -164,7 +164,7 @@ In Azure Machine Learning, operations that you run are called *experiments*. Fol
         - **Select compute type**: Compute cluster
         - **Select Azure ML compute cluster**: *the compute cluster you created previously*
     - **Task type and settings**:
-        - **Task type**: Classification
+        - **Task type**: Classification (Since we trying to see if a patient is diabetic or not)
         - Select **View additional configuration settings** to open **Additional configurations**:
             - **Primary metric**: Select **AUC Weighted** *(more about this metric later!)*
             - **Explain best model**: Selected - *this option causes automated machine learning to calculate feature importance for the best model; making it possible to determine the influence of each feature on the predicted label.*
@@ -176,7 +176,7 @@ In Azure Machine Learning, operations that you run are called *experiments*. Fol
         - Select **View featurization settings** to open **Featurization**:
             - **Enable featurization**: Selected - *this causes Azure Machine Learning to automatically preprocess the features before training.*
     - **Select the validation and test type**:
-        - **Validation type**: Train-validation split
+        - **Validation type**: Train-validation split (With this we are going to use a percentage of the data we uploaded to train the model and another percentage to check its score)
         - **Percentage validation of data**: 30
         - **Test dataset**: No test dataset required
 
