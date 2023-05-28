@@ -53,7 +53,7 @@ One of the benefits of Azure Machine Learning is the ability to create cloud-bas
     - **Compute name**: *enter a unique name*
     - **Location**: *The same location as your workspace*
     - **Virtual machine type**: CPU
-    - **Virtual machine size**: Standard_DS11_v2
+    - **Virtual machine size**: Standard_DS13_v2
     - **Total Available Quotas**: This shows dedicated cores available.
     - **Show advanced settings**: Note the following settings, but do not select them:
         - **Enable SSH access**: Unselected *(you can use this to enable direct access to the virtual machine using an SSH client)*
@@ -110,7 +110,7 @@ To use automated machine learning, you require compute on which to run the model
     - **Location**: *The same location as your workspace*
     - **Virtual Machine tier**: Dedicated
     - **Virtual Machine type**: CPU
-    - **Virtual Machine size**: Standard_DS11_v2
+    - **Virtual Machine size**: Standard_DS13_v2
     - **Compute name**: *enter a unique name*
     - **Minimum number of nodes**: 0
     - **Maximum number of nodes**: 2
@@ -392,7 +392,7 @@ Now you can test your deployed service from a client application - in this case,
 1. In the notebook, replace the **ENDPOINT** and **PRIMARY_KEY** placeholders with the values for your service, which you can copy from the **Consume** tab on the page for your endpoint. Select the eye icon to reveal the value of the key.
 1. Run the code cell and view the output returned by your web service.
 
-
+#Using the Azure Machine Learning SDK
 
 # Train Models
 
@@ -445,5 +445,15 @@ In this exercise, the code to interpret models is provided in a notebook.
 
 
 ![Visual Inference Pipeline](dp100-cheat-sheet-machine-learning_page-0001.jpg)
+
+# DELETE ALL RESOURCES
+
+When you finish exploring Azure Machine Learning, you should delete the resources you've created to avoid unnecessary Azure costs.
+
+1. Close the Azure Machine Learning Studio tab and return to the Azure portal.
+1. In the Azure portal, on the **Home** page, select **Resource groups**.
+1. Select the **rg-dp100-labs** resource group.
+1. At the top of the **Overview** page for your resource group, select **Delete resource group**. 
+1. Enter the resource group name to confirm you want to delete it, and select **Delete**.
 
 
